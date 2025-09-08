@@ -32,6 +32,14 @@ It is built with **React (Frontend)** and **Node.js + Express + MongoDB (Backend
 git clone https://github.com/ROHIT-JINJALA/R-GPT.git
 cd R-GPT
 
+---
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/ROHIT-JINJALA/R-GPT.git
+cd R-GPT
+
 ### 2. Backend Setup
 ```bash
 cd backend
