@@ -46,7 +46,7 @@ cd R-GPT
 ```bash
 cd backend
 npm install
-npm start
+node server.js
 ```
 Create a .env file inside the backend/ folder and add:
 ``` bash
