@@ -67,3 +67,7 @@ Create a .env file inside the frontend/ folder and add:
 ```bash
 VITE_SERVER_URI=http://localhost:8080
 ```
+
+## 🖼️ Screenshots
+
+![Screenshot](image.png)
