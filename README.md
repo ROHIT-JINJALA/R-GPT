@@ -51,7 +51,7 @@ node server.js
 Create a .env file inside the backend/ folder and add:
 ``` bash
 PORT=8080
-OPENAI_API_KEY=your_openai_secret_key
+OPENAI_API_KEY=your_openai_key
 MONGODB_URI=your_mongodb_url
 
 ```
