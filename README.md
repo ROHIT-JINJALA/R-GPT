@@ -31,7 +31,7 @@ R-GPT/
 ├── backend/    # Node.js backend
 ├── .gitignore 
 └── README.md
-
+```
 
 ## ⚙️ Installation & Setup
 
@@ -41,7 +41,7 @@ cd R-GPT
 
 ```
 
-**1** Backend Setup
+**1.** Backend Setup
 
 ```bash
 cd backend
@@ -51,11 +51,12 @@ npm start
 Create a .env file inside the backend/ folder and add:
 ``` bash
 PORT=8080
-OPENAI_API_KEY=your open ai secret key
-MONGODB_URI=your mongodb url
+OPENAI_API_KEY=your_openai_secret_key
+MONGODB_URI=your_mongodb_url
+
 ```
 
-**2** Frontend Setup
+**2.** Frontend Setup
 
 ```bash
 cd frontend
