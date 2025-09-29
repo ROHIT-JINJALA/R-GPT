@@ -29,10 +29,10 @@ function App() {
   };
 
   return (
-    <div className="flex text-white h-screen">
+    <div className="flex text-white h-screen ">
       <MyContext.Provider value={providerValues}>
-        <Sidebar />
-        <ChatWindow />
+        <Sidebar></Sidebar>
+        <ChatWindow></ChatWindow>
       </MyContext.Provider>
     </div>
   );
