@@ -4,7 +4,7 @@ import ChatWindow from "./ChatWindow";
 import { MyContext } from "./MyContext";
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { SpeedInsights } from "@vercel/speed-insights/react";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   const [prompt, setPrompt] = useState("");
