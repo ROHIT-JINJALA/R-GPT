@@ -4,6 +4,7 @@ import ChatWindow from "./ChatWindow";
 import { MyContext } from "./MyContext";
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const [prompt, setPrompt] = useState("");
@@ -29,10 +30,11 @@ function App() {
   };
 
   return (
-    <div className="flex text-white h-screen ">
+    <div className="flex text-white h-screen">
       <MyContext.Provider value={providerValues}>
-        <Sidebar></Sidebar>
-        <ChatWindow></ChatWindow>
+        <Sidebar />
+        <ChatWindow />
+        <SpeedInsights />
       </MyContext.Provider>
     </div>
   );
