@@ -4,7 +4,6 @@ import ChatWindow from "./ChatWindow";
 import { MyContext } from "./MyContext";
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   const [prompt, setPrompt] = useState("");
@@ -34,7 +33,6 @@ function App() {
       <MyContext.Provider value={providerValues}>
         <Sidebar />
         <ChatWindow />
-        <SpeedInsights />
       </MyContext.Provider>
     </div>
   );
